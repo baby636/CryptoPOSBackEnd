@@ -11,7 +11,9 @@
     "start": "yarn build && node ./dist/server.js",
     "build": "babel ./src --out-dir ./dist --source-maps --copy-files",
     "audit": "synk test",
-    "test": "./node_modules/.bin/mocha --compilers js:@babel/register"
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@chris.troutner/bitbox-js": "https://github.com/christroutner/bitbox-js",
@@ -32,7 +34,8 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "socket.io": "^2.2.0",
-    "validator": "^10.11.0"
+    "validator": "^10.11.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -45,5 +48,6 @@
     "nodemon": "^1.18.9",
     "supertest": "^3.3.0",
     "synk": "^0.0.2"
-  }
+  },
+  "snyk": true
 }

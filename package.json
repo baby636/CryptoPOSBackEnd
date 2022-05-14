@@ -19,7 +19,7 @@
     "bcryptjs": "^2.4.3",
     "bitbox-sdk": "^2.2.8",
     "body-parser": "^1.19.0",
-    "concurrently": "^4.1.0",
+    "concurrently": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "ethereumjs-wallet": "^0.6.3",

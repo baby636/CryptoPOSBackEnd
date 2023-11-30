@@ -17,7 +17,7 @@
     "@chris.troutner/bitbox-js": "https://github.com/christroutner/bitbox-js",
     "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
-    "bitbox-sdk": "^2.2.8",
+    "bitbox-sdk": "^8.0.0",
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.0",
     "cors": "^2.8.5",

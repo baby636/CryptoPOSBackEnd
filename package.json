@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "@chris.troutner/bitbox-js": "https://github.com/christroutner/bitbox-js",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
-    "bitbox-sdk": "^2.2.8",
+    "bitbox-sdk": "^8.0.0",
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.0",
     "cors": "^2.8.5",
@@ -39,11 +39,11 @@
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
     "@babel/plugin-transform-arrow-functions": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-env": "^7.22.0",
     "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.9",
-    "supertest": "^3.3.0",
+    "nodemon": "^2.0.0",
+    "supertest": "^6.2.0",
     "synk": "^0.0.2"
   }
 }
